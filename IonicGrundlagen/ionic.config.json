@@ -1,0 +1,7 @@
+{
+  "name": "IonicGrundlagen",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

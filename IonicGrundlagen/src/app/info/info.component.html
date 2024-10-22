@@ -1,0 +1,39 @@
+<ion-content>
+
+
+<p>
+  info works!
+</p>
+
+<form name="anfrage" class="container mt-4"  (submit)="onSubmit($event)">
+  <div class="mb-3">
+    <!-- Vorname -->
+    <label for="vorname" class="form-label">Vorname</label>
+    <input type="text" id="vorname" name="vorname" class="form-control">
+  </div>
+
+  <div class="mb-3">
+    <!-- Nachname -->
+    <label for="nachname" class="form-label">Nachname</label>
+    <input type="text" id="nachname" name="nachname" class="form-control">
+  </div>
+
+  <div class="mb-3">
+    <!-- Email -->
+    <label for="email" class="form-label">Email</label>
+    <input type="email" id="email" name="email" class="form-control" required>
+  </div>
+
+  <div class="mb-3">
+    <!-- Nachricht -->
+    <label for="nachricht" class="form-label">Nachricht</label>
+    <textarea id="nachricht" name="nachricht" class="form-control"></textarea>
+  </div>
+
+  <!-- Senden Button -->
+  <button type="submit" class="btn btn-primary w-100">Senden</button>
+</form>
+
+<br />
+
+</ion-content>
